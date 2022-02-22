@@ -1,3 +1,7 @@
+a { // React Router's <Link> tag use <a> tags.
+    text-decoration: none;
+}
+
 .textContent {
     margin-top: 7vh;
     align-items: center;
@@ -18,4 +22,17 @@
     font-size: 15px;
     line-height: 20px;
     color: white;
+}
+
+.createEventContent {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.createEventButton { // !important allows for overriding RoundedButton's preset CSS.
+    padding: 1rem !important;
+    font-weight: 700 !important;
+    background: linear-gradient(107.04deg, #06D6A0 48.99%, #5794F7 118.32%) !important;
 }
