@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Landing from './pages/Landing/Landing';
 
 function App() {
   return (
@@ -6,7 +7,7 @@ function App() {
       <div className="app">
         <BrowserRouter>
           <Routes>
-            <Route exact path="/" />
+            <Route exact path="/" element={<Landing />} />
           </Routes>
         </BrowserRouter>
       </div>
