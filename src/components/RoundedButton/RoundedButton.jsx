@@ -5,6 +5,7 @@ function RoundedButton(props) {
     <>
       <button
         className={`${styles.roundedButton} ${props.className}`}
+        type={props.type}
         onClick={props.onClick}>
         {props.text}
       </button>
