@@ -1,3 +1,8 @@
+// Fixes sizing issue when inside <Link> tags.
+a {
+    height: 100%;
+}
+
 .roundedButton {
     text-decoration: none;
     background: black;
